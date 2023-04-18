@@ -1,0 +1,1 @@
+This project is my attempt at the Odin Landing Page. I am looking forward to reinforcing my knowledge of everything i have learned thus far, especially git and flexbox which have been challenging for me.
