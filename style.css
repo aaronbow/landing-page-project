@@ -3,13 +3,14 @@
 }
 
 html, body {
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header, .intro, .info, .quote, .signup {
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .container {
@@ -90,6 +91,7 @@ header h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .info h2 {
@@ -130,6 +132,12 @@ header h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.quote p {
+    margin: 0;
 }
 
 #quotetop {
@@ -141,6 +149,12 @@ header h3 {
     display: flex;
     flex: 1 0;
     justify-content: end;
+    width: 100%;
+}
+
+.signup {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .signupcontainer {
@@ -148,6 +162,34 @@ header h3 {
     color: #f9faf8;
     border-radius: 5px;
     margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+#signupleft {
+    display: flex;
+    flex-direction: column;
+    flex: 3 1;
+}
+
+#signupleft p {
+    margin: 0;
+}
+
+#signupright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+}
+
+#signupright button {
+    font-weight: bold;
+    width: 80px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
 }
 
 footer {
